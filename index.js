@@ -6,6 +6,10 @@ const a =0;
  let stack = []
 let counter=0
 
+function handleError(message) {
+  console.error(`Error: ${message}`)
+  return NaN 
+}
 
 function prefixEval() {
     let val = document.getElementById('display').value
