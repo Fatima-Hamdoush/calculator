@@ -23,3 +23,5 @@ Steps:
 2. Add 9 + 6 = 15.
 Result: 15
 
+link: https://fatima-hamdoush.github.io/calculator/
+
