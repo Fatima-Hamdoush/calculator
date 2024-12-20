@@ -10,7 +10,7 @@
 </head>
 <body>
     <div class="container">
-        <div class="calculator">
+        <div class="calculator" id ="calculator">
             <form>
               <div class="display">
                 <!-- here we will display the result of calculation -->
@@ -53,11 +53,16 @@
               <div>
                 <!-- AC button to clear all -->
                 <input type="button" value="0" onclick="display.value+='0'">
-                <input type="button" value="=">
-                <button>
+                <input type="button" value="space"onclick="display.value+=' '">
+                
+                <button class="lune" id = "lune" onclick="darkmode()">
                      <i class="fas fa-moon"></i> 
                 </button>
                 
+              </div>
+              <div >
+                 <input type="button" value="prefix result"onclick=prefixEval() class = "function1">
+                <input type="button" value="postfix result"onclick="Postfixeval()" class = "function2">
               </div>
                
               

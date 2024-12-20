@@ -7,10 +7,12 @@
 }
 
 .calculator{
-    background-color: #3a4452;
+    background-color: rgb(58, 68, 82);
     padding: 20px;
     border-radius: 10px;
+    
 }
+
 
 .calculator form input , button{
     border: 0;
@@ -37,5 +39,9 @@ form .display input{
     flex: 1;
     font-size: 45px;
     box-shadow: none;
+
+}
+form input.function1,form input.function2,form button.lune{
+    width: 145px;
 
 }
