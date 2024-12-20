@@ -45,3 +45,8 @@ form input.function1,form input.function2,form button.lune{
     width: 145px;
 
 }
+p{
+   font-style: italic;
+   size: 20px;
+   
+}
